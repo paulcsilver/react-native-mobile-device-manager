@@ -8,20 +8,21 @@
  * https://github.com/facebook/react-native
  */
 
-import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import React, {Component} from 'react';
+import {Platform, StyleSheet, Text, View} from 'react-native';
 import MobileDeviceManager from 'react-native-mobile-device-manager';
 
 export default class App extends Component<{}> {
   state = {
     status: 'starting',
-    message: '--'
+    message: '--',
   };
   componentDidMount() {
-    MobileDeviceManager.sampleMethod('Testing', 123, (message) => {
+    const today = `${new Date()}`;
+    MobileDeviceManager.sampleMethod(today, 123, (message) => {
       this.setState({
         status: 'native callback received',
-        message
+        message,
       });
     });
   }

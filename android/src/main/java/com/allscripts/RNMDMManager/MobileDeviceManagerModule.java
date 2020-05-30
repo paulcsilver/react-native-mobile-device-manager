@@ -143,7 +143,7 @@ public class MobileDeviceManagerModule extends ReactContextBaseJavaModule implem
     @ReactMethod
     public void sampleMethod(String stringArgument, int numberArgument, Callback callback) {
         // TODO: Implement some actually useful functionality
-        callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
+        callback.invoke("Received numberArgument:\n" + numberArgument + "\n\nstringArgument:\n" + stringArgument);
     }
 
     private boolean isMDMSupported() {

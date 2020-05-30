@@ -421,7 +421,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AppConfigSettingsFramework: e56f04b906d6d0d74fe8fd34efa6928f222b6381
+  AppConfigSettingsFramework: abb41657565d299b80cc5c22418e410bcd9016a4
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   CocoaLibEvent: 2fab71b8bd46dd33ddb959f7928ec5909f838e3f
